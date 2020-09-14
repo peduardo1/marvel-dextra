@@ -12,8 +12,8 @@ import org.springframework.stereotype.Repository;
 public interface SeriesRepository extends JpaRepository<Series,Long> {
 
     @Query(value="SELECT * FROM SERIES S " +
-            "JOIN CHARACTER_SERIES CS (S.ID = CS.SERIES_ID) " +
-            "JOIN CHARACTER C ON (CS.CHARACTER_ID = C.ID " +
+            "JOIN CHARACTER_SERIES CS ON (S.ID = CS.SERIES_ID) " +
+            "JOIN CHARACTER C ON (CS.CHARACTER_ID = C.ID) " +
             "WHERE C.ID = ?1", nativeQuery = true)
     Page<Series> findAllByCharacter(Long idCharacter, Pageable pageable);
 }

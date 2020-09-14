@@ -11,8 +11,8 @@ import org.springframework.stereotype.Repository;
 public interface EventRepository extends JpaRepository<Event,Long> {
 
     @Query(value="SELECT * FROM EVENT E " +
-            "JOIN CHARACTER_EVENT CE (E.ID = CE.EVENT_ID) " +
-            "JOIN CHARACTER C ON (CE.CHARACTER_ID = C.ID " +
+            "JOIN CHARACTER_EVENTS CE ON (E.ID = CE.EVENT_ID) " +
+            "JOIN CHARACTER C ON (CE.CHARACTER_ID = C.ID) " +
             "WHERE C.ID = ?1", nativeQuery = true)
     Page<Event> findAllByCharacter(Long idCharacter, Pageable pageable);
 }

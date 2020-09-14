@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48847481-f52b-47d5-beba-93e10477e49c" name="Default Changelist" comment="" />
+    <list default="true" id="48847481-f52b-47d5-beba-93e10477e49c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/domain/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/domain/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/repository/ComicRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/repository/ComicRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/repository/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/repository/EventRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/repository/SeriesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/repository/SeriesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/repository/StoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/repository/StoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,29 +88,64 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1600041091583" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1600050043978">
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1600110254356">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600050043978" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1600050043978">
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600110254356" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1600110254356">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600050043978" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1600050043978">
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600110254356" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1600110254356">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600050043978" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1600050043978">
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600110254356" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1600110254356">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600050043978" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600110254356" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1600110226461">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600110226461" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1600110226461">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1600110226461" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1600110226461">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1600110226461" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1600110226461">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1600110226461" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1600015249869">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1600015249869" />
+    <state x="347" y="73" width="587" height="534" key="find.popup" timestamp="1600105195460">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="347" y="73" width="587" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1600105195460" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1600110041248">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1600110041248" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1600016420517">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1600016420517" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/resources/CharacterResource.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -11,8 +11,8 @@ import org.springframework.stereotype.Repository;
 public interface ComicRepository extends JpaRepository<Comic,Long> {
 
     @Query(value="SELECT * FROM COMIC CO " +
-                  "JOIN CHARACTER_COMIC CC (CO.ID = CC.COMIC_ID) " +
-                  "JOIN CHARACTER C ON (CC.CHARACTER_ID = C.ID " +
+                  "JOIN CHARACTER_COMICS CC ON (CO.ID = CC.COMIC_ID) " +
+                  "JOIN CHARACTER C ON (CC.CHARACTER_ID = C.ID) " +
                   "WHERE C.ID = ?1", nativeQuery = true)
     Page<Comic> findAllByCharacter(Long idCharacter, Pageable pageable);
 }

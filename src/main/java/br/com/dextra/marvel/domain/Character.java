@@ -43,6 +43,7 @@ public class Character {
     @ManyToMany
     @JoinTable(
             name = "character_series",
+            indexes = {},
             joinColumns = @JoinColumn(name = "character_id"),
             inverseJoinColumns = @JoinColumn(name = "series_id"))
     private List<Series> series;
