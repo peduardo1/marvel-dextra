@@ -33,10 +33,10 @@ http://localhost:8080/marvel/api/v1/public/character - Retorna a lista de todos 
 
 http://localhost:8080/marvel/api/v1/public/character/:id - Retorna as informações do personagem escolhido pelo id passado no path do endpoint.
 
-http://localhost:8080/marvel/api/v1/public/character/:characterId/series - Retorna as informações das séries ao qual o personagem escolhido no endpoint participou.
+http://localhost:8080/marvel/api/v1/public/character/:characterId/series - Retorna as informações das séries ao qual o personagem escolhido no endpoint participou. Para fins de teste, nem todos os personagens possuem séries cadastradas.
 
-http://localhost:8080/marvel/api/v1/public/character/:characterId/comics - Retorna as informações dos quadrinhos ao qual o personagem escolhido participou.
+http://localhost:8080/marvel/api/v1/public/character/:characterId/comics - Retorna as informações dos quadrinhos ao qual o personagem escolhido participou. Para fins de teste, nem todos os personagens possuem quadrinhos cadastrados.
 
-http://localhost:8080/marvel/api/v1/public/character/:characterId/stories - Retorna as estórias ao qual o personagem escolhido participou
+http://localhost:8080/marvel/api/v1/public/character/:characterId/stories - Retorna as estórias ao qual o personagem escolhido participou. Para fins de teste, nem todos os personagens possuem estórias cadastradas.
 
-http://localhost:8080/marvel/api/v1/public/character/:characterId/events
+http://localhost:8080/marvel/api/v1/public/character/:characterId/events - Retorna todos os eventos ao qual o personagem escolhido participou. Para fins de teste, nem todos os personagens possuem eventos cadastrados.
