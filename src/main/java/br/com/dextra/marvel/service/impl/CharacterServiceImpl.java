@@ -6,6 +6,7 @@ import br.com.dextra.marvel.service.CharacterService;
 import br.com.dextra.marvel.service.dto.CharacterDTO;
 import br.com.dextra.marvel.service.mapper.CharacterMapper;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -13,12 +14,18 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-@RequiredArgsConstructor
 public class CharacterServiceImpl implements CharacterService {
 
+    @Autowired
     private final CharacterRepository characterRepository;
+
+    @Autowired
     private final CharacterMapper characterMapper;
 
+    public CharacterServiceImpl(CharacterRepository characterRepository, CharacterMapper characterMapper) {
+        this.characterRepository = characterRepository;
+        this.characterMapper = characterMapper;
+    }
 
     @Override
     public Page<CharacterDTO> findAll(Pageable pageable) {

@@ -1,7 +1,5 @@
-package br.com.dextra.marvel.service.resources;
+package br.com.dextra.marvel.resources;
 
-import br.com.dextra.marvel.domain.Character;
-import br.com.dextra.marvel.domain.Comic;
 import br.com.dextra.marvel.service.*;
 import br.com.dextra.marvel.service.dto.*;
 import org.springframework.beans.factory.annotation.Autowired;

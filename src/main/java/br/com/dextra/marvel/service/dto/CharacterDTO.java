@@ -7,6 +7,7 @@ import br.com.dextra.marvel.domain.Story;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 import java.io.Serializable;
 import java.util.List;
@@ -14,6 +15,7 @@ import java.util.List;
 @Getter
 @Setter
 @EqualsAndHashCode
+@ToString
 public class CharacterDTO implements Serializable {
 
     private Long id;

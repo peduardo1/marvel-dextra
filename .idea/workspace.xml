@@ -6,13 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="48847481-f52b-47d5-beba-93e10477e49c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/domain/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/domain/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/repository/ComicRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/repository/ComicRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/repository/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/repository/EventRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/repository/SeriesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/repository/SeriesRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/repository/StoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/repository/StoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marvel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/marvel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/dto/CharacterDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/dto/CharacterDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/impl/CharacterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/impl/CharacterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/resources/CharacterResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/resources/CharacterResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +42,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.dextra.marvel.service" />
+      <recent name="br.com.dextra.marvel" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.dextra.marvel.service.mapper" />
       <recent name="br.com.dextra.marvel.service.dto" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CharacterServiceTest.checkIfCharacterExists">
     <configuration name="MarvelApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.dextra.marvel.MarvelApplication" />
       <module name="marvel" />
@@ -66,9 +68,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CharacterResourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marvel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dextra.marvel.resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.dextra.marvel.resources" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dextra.marvel.resources.CharacterResourceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharacterResourceTest.checkIfReturnsRequiredCharacter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marvel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dextra.marvel.resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.dextra.marvel.resources" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dextra.marvel.resources.CharacterResourceTest" />
+      <option name="METHOD_NAME" value="checkIfReturnsRequiredCharacter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharacterServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marvel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dextra.marvel.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.dextra.marvel.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dextra.marvel.service.CharacterServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharacterServiceTest.checkIfCharacterExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marvel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dextra.marvel.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.dextra.marvel.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dextra.marvel.service.CharacterServiceTest" />
+      <option name="METHOD_NAME" value="checkIfCharacterExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CharacterServiceTest.checkIfCharacterExists" />
+        <item itemvalue="JUnit.CharacterServiceTest" />
         <item itemvalue="Application.MarvelApplication" />
+        <item itemvalue="JUnit.CharacterResourceTest.checkIfReturnsRequiredCharacter" />
+        <item itemvalue="JUnit.CharacterResourceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -84,46 +152,66 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1600041091583">
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1600129350754">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1600041091583" />
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1600110254356">
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1600129350754" />
+    <state x="186" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1600116605450">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600110254356" />
-    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1600110254356">
+    <state x="186" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1600116605450" />
+    <state x="424" y="209" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1600120941213">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600110254356" />
-    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1600110254356">
+    <state x="424" y="209" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1600120941213" />
+    <state x="438" y="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1600116609848">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600110254356" />
-    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1600110254356">
+    <state x="438" y="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1600116609848" />
+    <state width="467" height="438" key="DebuggerActiveHint" timestamp="1600122364828">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600110254356" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1600110226461">
+    <state width="467" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1600122364828" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1600129870382">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600110226461" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1600110226461">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600129870382" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1600129870382">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1600110226461" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1600110226461">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600129870382" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1600129870382">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1600110226461" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1600110226461">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600129870382" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1600129870382">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1600110226461" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1600015249869">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600129870382" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1600124747008">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1600015249869" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600124747008" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1600124747008">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1600124747008" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1600124747008">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1600124747008" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1600124747008">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1600124747008" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1600128240922">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1600128240922" />
+    <state x="189" y="51" width="902" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600121333809">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="189" y="51" width="902" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1600121333809" />
     <state x="347" y="73" width="587" height="534" key="find.popup" timestamp="1600105195460">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -141,11 +229,16 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/resources/CharacterResource.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/resources/CharacterResource.java</url>
           <line>54</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/marvel$CharacterServiceTest_checkIfCharacterExists.ic" NAME="CharacterServiceTest.checkIfCharacterExists Coverage Results" MODIFIED="1600125634471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>br.com.dextra.marvel.service.*</FILTER>
+    </SUITE>
   </component>
 </project>
