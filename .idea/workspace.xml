@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="48847481-f52b-47d5-beba-93e10477e49c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marvel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/marvel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/dto/CharacterDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/dto/CharacterDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/impl/CharacterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/impl/CharacterServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/resources/CharacterResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/resources/CharacterResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -54,8 +49,10 @@
       <recent name="br.com.dextra.marvel.service.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CharacterServiceTest.checkIfCharacterExists">
+  <component name="RunManager" selected="JUnit.CharacterServiceTest">
     <configuration name="MarvelApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../../../Program Files/AdoptOpenJDK/jdk-11.0.8.10-hotspot" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="br.com.dextra.marvel.MarvelApplication" />
       <module name="marvel" />
       <extension name="coverage">
@@ -130,10 +127,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MarvelApplication" />
+      <item itemvalue="JUnit.CharacterResourceTest" />
+      <item itemvalue="JUnit.CharacterResourceTest.checkIfReturnsRequiredCharacter" />
+      <item itemvalue="JUnit.CharacterServiceTest" />
+      <item itemvalue="JUnit.CharacterServiceTest.checkIfCharacterExists" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CharacterServiceTest.checkIfCharacterExists" />
         <item itemvalue="JUnit.CharacterServiceTest" />
+        <item itemvalue="JUnit.CharacterServiceTest.checkIfCharacterExists" />
         <item itemvalue="Application.MarvelApplication" />
         <item itemvalue="JUnit.CharacterResourceTest.checkIfReturnsRequiredCharacter" />
         <item itemvalue="JUnit.CharacterResourceTest" />
@@ -152,6 +156,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600130834650">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1600130834650" />
     <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1600129350754">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -160,10 +168,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="186" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1600116605450" />
-    <state x="424" y="209" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1600120941213">
+    <state x="424" y="209" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1600131225171">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="424" y="209" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1600120941213" />
+    <state x="424" y="209" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1600131225171" />
     <state x="438" y="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1600116609848">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -172,22 +180,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="467" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1600122364828" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1600129870382">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1600131436620">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600129870382" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1600129870382">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600131436620" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1600131436619">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600129870382" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1600129870382">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600131436619" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1600131436619">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600129870382" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1600129870382">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600131436619" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1600131436619">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600129870382" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600131436619" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1600124747008">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -204,10 +212,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1600124747008" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1600128240922">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1600130805899">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1600128240922" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1600130805899" />
     <state x="189" y="51" width="902" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600121333809">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
