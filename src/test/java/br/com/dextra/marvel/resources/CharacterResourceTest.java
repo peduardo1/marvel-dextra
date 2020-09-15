@@ -27,13 +27,11 @@ public class CharacterResourceTest {
     @Autowired MockMvc mockMvc;
 
     @Test
-    public void checkIfReturnsRequiredCharacter()throws Exception{
+    public void checkIfReturnsStatusOk()throws Exception{
 
         mockMvc.perform(get("/character/1")
                 .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk());
-                //.andExpect(jsonPath("$.name").value("Homem Aranha"));
-
     }
 
 }

@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="48847481-f52b-47d5-beba-93e10477e49c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/dto/CharacterDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/dto/CharacterDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/impl/CharacterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/impl/CharacterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/dto/EventDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dextra/marvel/service/dto/EventDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/dextra/marvel/resources/CharacterResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/dextra/marvel/resources/CharacterResourceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/dextra/marvel/service/CharacterServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/dextra/marvel/service/CharacterServiceTest.java" afterDir="false" />
     </list>
@@ -41,6 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -48,59 +49,62 @@
       <recent name="br.com.dextra.marvel.service" />
       <recent name="br.com.dextra.marvel" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Paulo.Santos\Desktop\Pessoal\Dextra\marvel-dextra\src\test\resources" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.dextra.marvel.service.mapper" />
       <recent name="br.com.dextra.marvel.service.dto" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CharacterServiceTest">
-    <configuration name="MarvelApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../../../Program Files/AdoptOpenJDK/jdk-11.0.8.10-hotspot" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="br.com.dextra.marvel.MarvelApplication" />
+  <component name="RunManager" selected="JUnit.CharacterResourceIntegrationTest">
+    <configuration name="CharacterResourceIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marvel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.dextra.marvel.*" />
+          <option name="PATTERN" value="br.com.dextra.marvel.resources.integration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CharacterResourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="marvel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.dextra.marvel.resources.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.dextra.marvel.resources" />
-      <option name="MAIN_CLASS_NAME" value="br.com.dextra.marvel.resources.CharacterResourceTest" />
+      <option name="PACKAGE_NAME" value="br.com.dextra.marvel.resources.integration" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dextra.marvel.resources.integration.CharacterResourceIntegrationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharacterResourceTest.checkIfReturnsRequiredCharacter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EventServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marvel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.dextra.marvel.resources.*" />
+          <option name="PATTERN" value="br.com.dextra.marvel.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.dextra.marvel.resources" />
-      <option name="MAIN_CLASS_NAME" value="br.com.dextra.marvel.resources.CharacterResourceTest" />
-      <option name="METHOD_NAME" value="checkIfReturnsRequiredCharacter" />
+      <option name="PACKAGE_NAME" value="br.com.dextra.marvel.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dextra.marvel.service.EventServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventServiceTest.checkEventsResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marvel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dextra.marvel.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.dextra.marvel.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dextra.marvel.service.EventServiceTest" />
+      <option name="METHOD_NAME" value="checkEventsResult" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharacterServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeriesServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marvel" />
       <extension name="coverage">
         <pattern>
@@ -109,13 +113,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.dextra.marvel.service" />
-      <option name="MAIN_CLASS_NAME" value="br.com.dextra.marvel.service.CharacterServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dextra.marvel.service.SeriesServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharacterServiceTest.checkIfCharacterExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StoryServiceTest.checkSeriesResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marvel" />
       <extension name="coverage">
         <pattern>
@@ -124,27 +128,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.dextra.marvel.service" />
-      <option name="MAIN_CLASS_NAME" value="br.com.dextra.marvel.service.CharacterServiceTest" />
-      <option name="METHOD_NAME" value="checkIfCharacterExists" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dextra.marvel.service.StoryServiceTest" />
+      <option name="METHOD_NAME" value="checkSeriesResult" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MarvelApplication" />
-      <item itemvalue="JUnit.CharacterResourceTest" />
-      <item itemvalue="JUnit.CharacterResourceTest.checkIfReturnsRequiredCharacter" />
-      <item itemvalue="JUnit.CharacterServiceTest" />
-      <item itemvalue="JUnit.CharacterServiceTest.checkIfCharacterExists" />
+      <item itemvalue="JUnit.SeriesServiceTest" />
+      <item itemvalue="JUnit.StoryServiceTest.checkSeriesResult" />
+      <item itemvalue="JUnit.EventServiceTest" />
+      <item itemvalue="JUnit.EventServiceTest.checkEventsResult" />
+      <item itemvalue="JUnit.CharacterResourceIntegrationTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CharacterServiceTest" />
-        <item itemvalue="JUnit.CharacterServiceTest.checkIfCharacterExists" />
-        <item itemvalue="Application.MarvelApplication" />
-        <item itemvalue="JUnit.CharacterResourceTest.checkIfReturnsRequiredCharacter" />
-        <item itemvalue="JUnit.CharacterResourceTest" />
+        <item itemvalue="JUnit.CharacterResourceIntegrationTest" />
+        <item itemvalue="JUnit.EventServiceTest.checkEventsResult" />
+        <item itemvalue="JUnit.EventServiceTest" />
+        <item itemvalue="JUnit.StoryServiceTest.checkSeriesResult" />
+        <item itemvalue="JUnit.SeriesServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -164,10 +168,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1600130834650" />
-    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1600138539910">
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1600173595860">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1600138539910" />
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1600173595860" />
     <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1600129350754">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -184,42 +188,42 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="438" y="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1600116609848" />
-    <state width="467" height="438" key="DebuggerActiveHint" timestamp="1600122364828">
+    <state width="467" height="438" key="DebuggerActiveHint" timestamp="1600170208630">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="467" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1600122364828" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1600139084957">
+    <state width="467" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1600170208630" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1600177116787">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600139084957" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1600139084957">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600177116787" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1600177116787">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600139084957" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1600139084957">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600177116787" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1600177116787">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600139084957" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1600139084957">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600177116787" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1600177116787">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600139084957" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1600137279266">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600177116787" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1600170664434">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600137279266" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1600137279266">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600170664434" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1600170664433">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1600137279266" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1600137279266">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1600170664433" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1600170664433">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1600137279266" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1600137279266">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1600170664433" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1600170664433">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1600137279266" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1600170664433" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1600130805899">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
