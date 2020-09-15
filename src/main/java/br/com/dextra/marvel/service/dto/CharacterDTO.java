@@ -14,8 +14,8 @@ import java.util.List;
 
 @Getter
 @Setter
-@EqualsAndHashCode
 @ToString
+@EqualsAndHashCode
 public class CharacterDTO implements Serializable {
 
     private Long id;

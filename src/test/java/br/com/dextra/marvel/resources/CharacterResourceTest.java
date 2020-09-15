@@ -29,7 +29,6 @@ public class CharacterResourceTest {
     @Test
     public void checkIfReturnsRequiredCharacter()throws Exception{
 
-
         mockMvc.perform(get("/character/1")
                 .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk());
