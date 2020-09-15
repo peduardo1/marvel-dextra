@@ -27,7 +27,7 @@ Para verificar, basta utiizar um dos endpoints citados abaixo.
 
 ## Lista de Endpoints:
 
-Todos os endpoints a seguir utilizam o método Http GET
+Todos os endpoints a seguir utilizam o método HTTP GET
 
 http://localhost:8080/marvel/api/v1/public/character - Retorna a lista de todos os personagens cadastrados. Foram cadastrados 10 personagens no script de inicialização.
 
